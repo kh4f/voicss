@@ -24,12 +24,12 @@
 
 **Voicss** */vɔɪs/* is a lightweight zero-runtime CSS-in-TS toolkit for React that extracts `` void `css ...` `` blocks from `.ts(x)` files into native CSS.
 
-- **Zero-runtime:** styles are extracted at build time, no JS in production
+- **Zero-Runtime:** styles are extracted at build time, no JS in production
 - **Native CSS:** write standard CSS with all modern features
-- **Modern bundlers:** first-class support for Next.js and Vite
+- **Modern Bundlers:** first-class support for Next.js and Vite
 - **HMR:** instant style updates during development
-- **[VS Code extension](https://marketplace.visualstudio.com/items?itemName=kh4f.voicss):** syntax highlighting, autocomplete, validation...
-- **[ESLint plugin](https://www.npmjs.com/package/voicss-eslint):** CSS formatting in Voicss blocks
+- **[VS Code Extension](https://marketplace.visualstudio.com/items?itemName=kh4f.voicss):** syntax highlighting, autocomplete, validation...
+- **[ESLint Plugin](https://www.npmjs.com/package/voicss-eslint):** CSS formatting in Voicss blocks
 
 ## 🚀 Getting Started
 

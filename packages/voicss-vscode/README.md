@@ -1,15 +1,15 @@
-# Voicss VS Code
+# 💻 Voicss × VS Code
 
-A VS Code extension that adds **native CSS features to Voicss CSS blocks**
+**Native CSS Features** for Voicss
 
-## 🔥 Features
+## ✨ Features
 
-- **Syntax Highlighting:** extended CSS grammar with nesting support  
-- **Autocomplete:** smart CSS property, value, and snippet suggestions  
-- **Color Tools:** color picker, inline previews, and format conversion  
+- **Syntax Highlighting:** extended CSS grammar with nesting support
+- **Autocomplete:** CSS property, value, and snippet suggestions
+- **Color Tools:** color picker, inline previews, and format conversion
 - **Validation:** real-time CSS errors and warnings
-- **Hover Tooltips:** MDN-powered CSS documentation on hover  
-- **Code Folding:** fold CSS blocks, media queries, and nested rules  
+- **Hover Tooltips:** MDN-powered CSS documentation on hover
+- **Code Folding:** fold CSS blocks, media queries, and nested rules
 
 ## 🕹️ Usage
 

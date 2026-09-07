@@ -1,14 +1,12 @@
-# 🧹 Voicss ESLint Plugin
+# 🧹 Voicss × ESLint
 
-An ESLint plugin for **CSS formatting in Voicss CSS blocks**
+**CSS Formatting** for Voicss
 
-## 📥 Install
+## ⚙️ Setup
 
 ```bash
 bun a -d voicss-eslint
 ```
-
-## 🕹️ Usage
 
 ```ts
 // eslint.config.ts
