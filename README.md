@@ -13,7 +13,8 @@
 	</p>
 	<b>
 		<a href="#-overview">Overview</a>&nbsp; •&nbsp;
-		<a href="#-getting-started">Getting Started</a>&nbsp; •&nbsp;
+		<a href="#-quick-start">Quick Start</a>&nbsp; •&nbsp;
+		<a href="#%EF%B8%8F-setup">Setup</a>&nbsp; •&nbsp;
 		<a href="#%EF%B8%8F-usage">Usage</a>
 	</b>
 	<br><br>
@@ -31,19 +32,19 @@
 - **[VS Code Extension](https://marketplace.visualstudio.com/items?itemName=kh4f.voicss):** syntax highlighting, autocomplete, validation...
 - **[ESLint Plugin](https://www.npmjs.com/package/voicss-eslint):** CSS formatting in Voicss blocks
 
-## 🚀 Getting Started
+## ⚡ Quick Start
 
-> [!TIP]
-> For a quick start, scaffold a [demo project](templates) for Next.js/Vite/tsdown:
-> ```bash
-> bun create voicss
-> ```
+Scaffold a [demo project](templates) for Next.js/Vite/tsdown:
+
+```bash
+bun create voicss
+```
+
+## ⚙️ Setup
 
 ```bash
 bun a -d voicss
 ```
-
-### Vite
 
 ```ts
 // vite.config.ts
@@ -54,8 +55,6 @@ export default defineConfig({
 	plugins: [voicss()],
 })
 ```
-
-### Next.js
 
 ```ts
 // next.config.ts
