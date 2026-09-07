@@ -5,11 +5,9 @@ export const metadata: Metadata = { title: 'Voicss × Next' }
 const tiny5 = Tiny5({ variable: '--font-tiny5', weight: '400' })
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-	return (
-		<html lang='en'>
-			<body className={tiny5.variable}>{children}</body>
-		</html>
-	)
+	return <html lang='en'>
+		<body className={tiny5.variable}>{children}</body>
+	</html>
 }
 
 void `css
