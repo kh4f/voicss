@@ -1,5 +1,12 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.1.3  `
+
+### &emsp; 📦 Distribution
+- **Published via CI**: automated release with staged publishing and OIDC authentication. [🡥](https://github.com/voicss/voicss/compare/create-voicss@0.1.2...create-voicss@0.1.3)
+
+##### &emsp;&emsp; [Commit log](https://github.com/voicss/voicss/compare/create-voicss@0.1.2...create-voicss@0.1.3) &ensp;•&ensp; Sep 7, 2026
+
 ## &ensp; ` 🏷️ v0.1.2  `
 
 ### &emsp; 📦 Distribution
