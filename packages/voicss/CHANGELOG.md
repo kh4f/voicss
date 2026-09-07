@@ -1,5 +1,15 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.2.0  `
+
+### &emsp; 📢 BREAKING CHANGES
+- **Consolidated package structure**: separate `@voicss/vite` and `@voicss/next` packages are no longer published. Import plugins via `voicss/vite` or `voicss/next` instead. [🡥](https://github.com/voicss/voicss/commit/6904e59)
+
+### &emsp; ✨ Features
+- **Bundled Vite and Next.js plugins**: the `@voicss/vite` and `@voicss/next` plugins are now included directly in the `voicss` package as subpath exports. [🡥](https://github.com/voicss/voicss/commit/6904e59)
+
+##### &emsp;&emsp; [Commit log](https://github.com/voicss/voicss/compare/voicss@0.1.3...voicss@0.2.0) &ensp;•&ensp; Sep 7, 2026
+
 ## &ensp; ` 🏷️ v0.1.3  `
 
 ### &emsp; 📋 Docs
