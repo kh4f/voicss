@@ -1,5 +1,12 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.1.2  `
+
+### &emsp; 📦 Distribution
+- **Package restored on npm**: `create-voicss` is available again under its original name. [🡥](https://github.com/voicss/voicss/compare/create-voicss@0.1.1...create-voicss@0.1.2)
+
+##### &emsp;&emsp; [Commit log](https://github.com/voicss/voicss/compare/create-voicss@0.1.1...create-voicss@0.1.2) &ensp;•&ensp; Sep 7, 2026
+
 ## &ensp; ` 🏷️ v0.1.1  `
 
 ### &emsp; 🩹 Fixes
