@@ -29,6 +29,7 @@
 	"scripts": {
 		"build": "tsdown",
 		"lint": "tsc && eslint",
+		"pack": "vsce package --no-dependencies --out dist",
 		"prepack": "cp ../../LICENSE .",
 		"postpack": "rm LICENSE"
 	},
