@@ -1,5 +1,15 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.3.0  `
+
+### &emsp; 📢 BREAKING CHANGES
+- **Publisher changed**: the extension has moved from the `Voicss` publisher to `kh4f`. The old extension under `voicss.voicss-vscode` has been unpublished.
+
+### &emsp; 📦 Distribution
+- **Published under new publisher**: the extension is now published from the monorepo under the `kh4f` publisher. [🡥](https://github.com/voicss/voicss/compare/voicss-vscode@0.2.1...voicss-vscode@0.3.0)
+
+##### &emsp;&emsp; [Commit log](https://github.com/voicss/voicss/compare/voicss-vscode@0.2.1...voicss-vscode@0.3.0) &ensp;•&ensp; Sep 8, 2026
+
 ## &ensp; ` 🏷️ v0.2.1  `
 
 ### &emsp; 🩹 Fixes
