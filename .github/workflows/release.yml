@@ -30,7 +30,7 @@ jobs:
         if: env.PACKAGE != 'voicss-vscode'
         working-directory: packages/${{ env.PACKAGE }}
 
-      - run: bun vsce publish --packagePath dist/*.vsix
+      - run: bun pack && bun vsce publish --packagePath dist/*.vsix
         if: env.PACKAGE == 'voicss-vscode'
         working-directory: packages/${{ env.PACKAGE }}
         env:
