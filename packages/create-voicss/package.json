@@ -5,7 +5,7 @@
 	"author": "kh4f",
 	"license": "MIT",
 	"repository": "https://github.com/kh4f/voicss",
-	"homepage": "https://github.com/kh4f/voicss",
+	"homepage": "https://github.com/kh4f/voicss/tree/main/packages/create-voicss",
 	"bugs": "https://github.com/kh4f/voicss/issues",
 	"keywords": ["voicss", "voicss-template", "project-generator", "scaffold", "starter"],
 	"files": ["dist"],
