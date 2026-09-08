@@ -1,5 +1,12 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.3.1  `
+
+### &emsp; 📦 Distribution
+- **Published as `voicss-eslint`**: the package has been renamed from `@voicss/eslint` and moved into the monorepo. [🡥](https://github.com/voicss/voicss/compare/voicss-eslint@0.3.0...voicss-eslint@0.3.1)
+
+##### &emsp;&emsp; [Commit log](https://github.com/voicss/voicss/compare/voicss-eslint@0.3.0...voicss-eslint@0.3.1) &ensp;•&ensp; Sep 7, 2026
+
 ## &ensp; ` 🏷️ v0.3.0  `
 
 ### &emsp; ✨ Features
