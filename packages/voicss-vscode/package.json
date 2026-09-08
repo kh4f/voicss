@@ -30,8 +30,8 @@
 		"build": "tsdown",
 		"lint": "tsc && eslint",
 		"pack": "vsce package --no-dependencies --out dist",
-		"prepack": "cp ../../LICENSE .",
-		"postpack": "rm LICENSE"
+		"prepack": "cp ../../LICENSE . && sed -i 's/\"name\": \"voicss-vscode\"/\"name\": \"voicss\"/' package.json",
+		"postpack": "rm LICENSE && sed -i 's/\"name\": \"voicss\"/\"name\": \"voicss-vscode\"/' package.json"
 	},
 	"devDependencies": {
 		"@types/vscode": "^1.136.0",
