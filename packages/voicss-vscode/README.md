@@ -10,7 +10,3 @@ CSS Language Support for Voicss in VS Code
 - **Validation:** real-time CSS errors and warnings
 - **Hover Tooltips:** MDN-powered CSS documentation on hover
 - **Code Folding:** fold CSS blocks, media queries, and nested rules
-
-## 🕹️ Usage
-
-Activates automatically in `.ts(x)` files.
