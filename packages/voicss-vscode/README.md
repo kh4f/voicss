@@ -1,6 +1,6 @@
-# 💻 Voicss × VS Code
+# Voicss × VS Code
 
-**Native CSS Features** for Voicss
+CSS Language Support for Voicss in VS Code
 
 ## ✨ Features
 

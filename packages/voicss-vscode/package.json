@@ -2,7 +2,7 @@
 	"name": "voicss-vscode",
 	"displayName": "Voicss — CSS in TS",
 	"version": "0.3.0",
-	"description": "✨ Native CSS Features for Voicss",
+	"description": "🎨 CSS Language Support for Voicss in VS Code",
 	"author": "kh4f",
 	"publisher": "kh4f",
 	"license": "MIT",
