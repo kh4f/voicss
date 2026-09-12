@@ -1,6 +1,6 @@
 {
 	"name": "voicss-vscode",
-	"displayName": "🎨 Voicss",
+	"displayName": "Voicss — CSS in TS",
 	"version": "0.3.0",
 	"description": "✨ Native CSS Features for Voicss",
 	"author": "kh4f",
