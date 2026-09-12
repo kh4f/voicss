@@ -1,5 +1,15 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.3.1  `
+
+### &emsp; 🎨 Style
+- **Updated extension branding**: refreshed the display name, description, and icon for the VS Code Marketplace. [🡥](https://github.com/kh4f/voicss/commit/8c46b9d7e7765c5fb9ec153cd8e13a6e96ff4bfc)
+
+### &emsp; 📋 Docs
+- **Improved README**: clarified CSS syntax highlighting and added release, license, and VS Code compatibility badges. [🡥](https://github.com/kh4f/voicss/commit/68ab412e31fdf96ac369fab5513a8340a8b77e13)
+
+##### &emsp;&emsp; [Commit log](https://github.com/kh4f/voicss/compare/voicss-vscode@0.3.0...voicss-vscode@0.3.1) &ensp;•&ensp; Sep 12, 2026
+
 ## &ensp; ` 🏷️ v0.3.0  `
 
 ### &emsp; 📢 BREAKING CHANGES
