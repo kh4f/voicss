@@ -4,7 +4,7 @@
 		<img alt="logo" src="https://raw.githubusercontent.com/kh4f/voicss/refs/heads/assets/logo-light.png">
 	</picture>
 	<br>
-	Ultra-Light Zero-Runtime <b>CSS-in-TS Toolkit</b> for React
+	<b>⚡Ultra-Light Compile-Time CSS-in-TS</b>
 	<br><br>
 	<p>
 		<a href="https://www.npmjs.com/package/voicss"><img src="https://img.shields.io/npm/v/voicss?style=flat-square&labelColor=D2371B&color=FBDCCB&label=npm&logo=npm" alt="npm"/></a>&nbsp;
