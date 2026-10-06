@@ -7,9 +7,9 @@
 	<b>⚡Ultra-Light Compile-Time CSS-in-TS</b>
 	<br><br>
 	<p>
-		<a href="https://www.npmjs.com/package/voicss"><img src="https://img.shields.io/npm/v/voicss?style=flat-square&labelColor=D2371B&color=FBDCCB&label=npm&logo=npm" alt="npm"/></a>&nbsp;
-		<a href="https://www.npmjs.com/package/voicss"><img src="https://img.shields.io/npm/dy/voicss?style=flat-square&labelColor=D2371B&color=FBDCCB&label=%F0%9F%93%A5%20downloads" alt="downloads"/></a>&nbsp;
-		<a href="https://github.com/kh4f/voicss/blob/main/LICENSE"><img src="https://img.shields.io/github/license/kh4f/voicss?style=flat-square&labelColor=D2371B&color=FBDCCB&label=%F0%9F%9B%A1%EF%B8%8F%20license" alt="license"/></a>
+		<a href="https://www.npmjs.com/package/voicss"><img  alt="release" src="https://img.shields.io/npm/v/voicss?style=flat-square&labelColor=EB2700&color=FFDDD6&label=npm&logo=npm"></a>&nbsp;
+		<a href="https://www.npmjs.com/package/voicss"><img alt="downloads" src="https://img.shields.io/npm/dy/voicss?style=flat-square&labelColor=EB2700&color=FFDDD6&label=%F0%9F%93%A5%20downloads"></a>&nbsp;
+		<a href="https://github.com/kh4f/voicss/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/kh4f/voicss?style=flat-square&labelColor=EB2700&color=FFDDD6&label=%F0%9F%9B%A1%EF%B8%8F%20license"></a>
 	</p>
 	<b>
 		<a href="#-overview">Overview</a>&nbsp; •&nbsp;
@@ -23,14 +23,14 @@
 
 ## 👀 Overview
 
-**Voicss** */vɔɪs/* is a lightweight zero-runtime CSS-in-TS toolkit for React that extracts `` void `css ...` `` blocks from `.ts(x)` files into native CSS.
+**Voicss** */vɔɪs/* is a lightweight compile-time CSS-in-TS toolkit for React that extracts `` void `css ...` `` blocks from `.ts(x)` files into native CSS.
 
-- **Zero-Runtime:** styles are extracted at build time, no JS in production
+- **Zero-runtime:** styles are extracted at build time, no JS in production
 - **Native CSS:** write standard CSS with all modern features
-- **Modern Bundlers:** first-class support for Next.js and Vite
+- **Modern bundlers:** first-class support for Next.js and Vite
 - **HMR:** instant style updates during development
-- **[VS Code Extension](https://marketplace.visualstudio.com/items?itemName=kh4f.voicss):** syntax highlighting, autocomplete, validation...
-- **[ESLint Plugin](https://www.npmjs.com/package/voicss-eslint):** CSS formatting in Voicss blocks
+- **[VS Code extension](https://marketplace.visualstudio.com/items?itemName=kh4f.voicss):** syntax highlighting, autocomplete, validation...
+- **[ESLint plugin](https://www.npmjs.com/package/voicss-eslint):** CSS formatting in Voicss blocks
 
 ## ⚡ Quick Start
 
