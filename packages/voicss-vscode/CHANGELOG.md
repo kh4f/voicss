@@ -1,5 +1,16 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.3.2  `
+
+### &emsp; 📋 Docs
+- **Clarified tagline**: the Marketplace description now mentions Voicss blocks. [🡥](https://github.com/kh4f/voicss/commit/8417a8b)
+
+### &emsp; 🎨 Style
+- **Updated icon**: the extension icon now matches the new Voicss logo. [🡥](https://github.com/kh4f/voicss/commit/83e9c4c)
+- **Recolored badges**: README badges now use the logo colors. [🡥](https://github.com/kh4f/voicss/commit/f306b9c)
+
+##### &emsp;&emsp; [Commit log](https://github.com/kh4f/voicss/compare/voicss-vscode@0.3.1...voicss-vscode@0.3.2) &ensp;•&ensp; Oct 18, 2026
+
 ## &ensp; ` 🏷️ v0.3.1  `
 
 ### &emsp; 🎨 Style

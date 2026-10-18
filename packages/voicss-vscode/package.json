@@ -1,7 +1,7 @@
 {
 	"name": "voicss-vscode",
 	"displayName": "Voicss — CSS in TS",
-	"version": "0.3.1",
+	"version": "0.3.2",
 	"description": "🎨 CSS Language Support for Voicss Blocks",
 	"author": "kh4f",
 	"publisher": "kh4f",
