@@ -1,6 +1,6 @@
 # Changelog
 
-  ## &ensp; ` 🏷️ v0.2.1  `
+## &ensp; ` 🏷️ v0.2.1  `
 
 ### &emsp; 📋 Docs
 - **Refined overview**: updated the introduction and feature list wording. [🡥](https://github.com/kh4f/voicss/commit/88f6e1e)
