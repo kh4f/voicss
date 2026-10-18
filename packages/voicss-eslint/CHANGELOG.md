@@ -1,5 +1,13 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.3.2  `
+
+### &emsp; 📋 Docs
+- **Clarified tagline**: the package description now mentions Voicss blocks. [🡥](https://github.com/kh4f/voicss/commit/0575a10)
+- **Added README badges**: npm release, npm downloads, and license badges. [🡥](https://github.com/kh4f/voicss/commit/f9928ce)
+
+##### &emsp;&emsp; [Commit log](https://github.com/kh4f/voicss/compare/voicss-eslint@0.3.1...voicss-eslint@0.3.2) &ensp;•&ensp; Oct 18, 2026
+
 ## &ensp; ` 🏷️ v0.3.1  `
 
 ### &emsp; 📦 Distribution
