@@ -4,7 +4,7 @@
 <a href="https://code.visualstudio.com/updates/v1_136"><img alt="VS Code" src="https://img.shields.io/badge/%3E%3D1.136.0-007ACC?style=flat-square&labelColor=EB2700&color=FFDDD6&label=%F0%9F%92%BB%EF%B8%8F%20VS%20Code"></a>&nbsp;
 <a href="https://github.com/kh4f/voicss/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/kh4f/voicss?style=flat-square&labelColor=EB2700&color=FFDDD6&label=%F0%9F%9B%A1%EF%B8%8F%20license"></a>
 
-CSS Language Support for Voicss Blocks
+**CSS Language Support for Voicss Blocks**
 
 ## ✨ Features
 

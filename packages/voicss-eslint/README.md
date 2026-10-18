@@ -1,6 +1,6 @@
 # 🧹 Voicss × ESLint
 
-CSS Formatting for Voicss Blocks
+**CSS Formatting for Voicss Blocks**
 
 ## ⚙️ Setup
 
