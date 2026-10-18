@@ -1,5 +1,13 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.1.4  `
+
+### &emsp; 📦 Distribution
+- **Updated homepage link**: the npm homepage now points to the `create-voicss` package folder in the monorepo. [🡥](https://github.com/kh4f/voicss/commit/a296cfa)
+- **Switched templates to `bun check`**: generated projects now type check with `bun check`, which requires Bun 1.4.3 or newer. [🡥](https://github.com/kh4f/voicss/commit/6b59146)
+
+##### &emsp;&emsp; [Commit log](https://github.com/kh4f/voicss/compare/create-voicss@0.1.3...create-voicss@0.1.4) &ensp;•&ensp; Oct 18, 2026
+
 ## &ensp; ` 🏷️ v0.1.3  `
 
 ### &emsp; 📦 Distribution
