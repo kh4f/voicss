@@ -23,7 +23,7 @@
 
 ## 👀 Overview
 
-**Voicss** */vɔɪs/* is a lightweight compile-time CSS-in-TS toolkit for React that extracts `` void `css ...` `` blocks from `.ts(x)` files into native CSS.
+**Voicss** /vɔɪs/ is a lightweight compile-time CSS-in-TS toolkit for React that extracts `` void `css ...` `` blocks from `.ts(x)` files into native CSS.
 
 - **Zero-runtime:** styles are extracted at build time, no JS in production
 - **Native CSS:** write standard CSS with all modern features
