@@ -1,5 +1,15 @@
 # Changelog
 
+  ## &ensp; ` 🏷️ v0.2.1  `
+
+### &emsp; 📋 Docs
+- **Refined overview**: updated the introduction and feature list wording. [🡥](https://github.com/kh4f/voicss/commit/88f6e1e)
+- **Refreshed npm badges**: updated the release, downloads, and license badges to the new color scheme. [🡥](https://github.com/kh4f/voicss/commit/88f6e1e)
+- **Fixed overview formatting**: removed the italics from the pronunciation. [🡥](https://github.com/kh4f/voicss/commit/ef80279)
+- **Fixed usage example**: moved the closing backtick to its own line. [🡥](https://github.com/kh4f/voicss/commit/a30e645)
+
+##### &emsp;&emsp; [Commit log](https://github.com/kh4f/voicss/compare/voicss@0.2.0...voicss@0.2.1) &ensp;•&ensp; Oct 18, 2026
+
 ## &ensp; ` 🏷️ v0.2.0  `
 
 ### &emsp; 📢 BREAKING CHANGES
