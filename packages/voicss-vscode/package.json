@@ -12,7 +12,7 @@
 	"keywords": ["voicss", "css-in-ts", "css-in-js", "typescript", "syntax-highlighting"],
 	"categories": ["Programming Languages", "Formatters", "Snippets", "Linters"],
 	"icon": "icon.png",
-	"galleryBanner": { "color": "#271B19", "theme": "dark" },
+	"galleryBanner": { "color": "#281C1A", "theme": "dark" },
 	"engines": { "vscode": ">=1.136.0" },
 	"files": ["package.json", "README.md", "LICENSE", "CHANGELOG.md", "dist", "syntaxes", "icon.png"],
 	"type": "module",
