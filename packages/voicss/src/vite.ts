@@ -1,5 +1,6 @@
-import type { Plugin } from 'vite'
 import MagicString from 'magic-string'
+import type { Plugin } from 'vite'
+
 import { extractCss } from './'
 
 const CSS_EXTRACTABLE_FILES = /\.(ts|tsx)$/

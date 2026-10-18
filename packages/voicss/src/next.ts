@@ -1,7 +1,9 @@
+import { createHash } from 'node:crypto'
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { join, resolve, relative, dirname } from 'node:path'
-import { createHash } from 'node:crypto'
+
 import type { NextConfig } from 'next'
+
 import { extractCss } from './'
 
 export const voicssTurboRule: Required<Required<NextConfig>['turbopack']>['rules'] = {

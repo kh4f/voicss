@@ -1,4 +1,5 @@
 import type { Plugin, ConfigObject } from '@eslint/core'
+
 import { indent, noMultipleEmptyLines, quoteStyle, spacing } from './rules'
 
 interface VoicssEslintPlugin extends Plugin {

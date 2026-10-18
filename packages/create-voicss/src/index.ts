@@ -1,4 +1,5 @@
 import { readFileSync, writeFileSync } from 'node:fs'
+
 import { intro, select, spinner, text, outro, cancel, isCancel } from '@clack/prompts'
 import { downloadTemplate } from 'giget'
 

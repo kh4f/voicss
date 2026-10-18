@@ -64,7 +64,10 @@ function report(
 				start: getPosition(source, absoluteStart),
 				end: getPosition(source, absoluteEnd),
 			},
-			fix: fixer => fixer.replaceTextRange([absoluteStart, absoluteEnd], `${preferredQuote}${inner}${preferredQuote}`),
+			fix: fixer => fixer.replaceTextRange(
+				[absoluteStart, absoluteEnd],
+				`${preferredQuote}${inner}${preferredQuote}`,
+			),
 		})
 	}
 }

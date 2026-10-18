@@ -1,6 +1,12 @@
 import { join } from 'node:path'
+
+import {
+	LanguageClient,
+	TransportKind,
+	type LanguageClientOptions,
+	type ServerOptions,
+} from 'vscode-languageclient/node'
 import type { ExtensionContext } from 'vscode'
-import { LanguageClient, TransportKind, type LanguageClientOptions, type ServerOptions } from 'vscode-languageclient/node'
 
 let client: LanguageClient | undefined
 

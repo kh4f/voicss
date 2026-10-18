@@ -77,7 +77,8 @@ function report(node: TSESTree.TemplateLiteral, context: RuleContext, source: st
 
 		const braceDelta = cleanLine.split('{').length - cleanLine.split('}').length
 		level = Math.max(innerIndent, level + braceDelta)
-		isMultilineDeclaration = isMultilineDeclarationStart(cleanLine) || (isMultilineDeclaration && !cleanLine.includes(';'))
+		const continuesDeclaration: boolean = isMultilineDeclaration && !cleanLine.includes(';')
+		isMultilineDeclaration = isMultilineDeclarationStart(cleanLine) || continuesDeclaration
 
 		charOffset += line.length + 1
 	}

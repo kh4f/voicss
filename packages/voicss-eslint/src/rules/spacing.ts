@@ -40,8 +40,19 @@ function report(node: TSESTree.TemplateLiteral, context: RuleContext, source: st
 		const indentLength = getIndent(line).length
 		const content = line.slice(indentLength)
 
-		reportMatches(content, MULTIPLE_SPACES_REGEX, ignoredRanges(content), context, source, charOffset + indentLength, 'unexpectedMultipleSpaces', ' ')
-		reportMatches(content, SPACE_BEFORE_SEMICOLON_REGEX, ignoredRanges(content), context, source, charOffset + indentLength, 'unexpectedSpaceBeforeSemicolon', '')
+		const ignored = ignoredRanges(content)
+		const offset = charOffset + indentLength
+		reportMatches(content, MULTIPLE_SPACES_REGEX, ignored, context, source, offset, 'unexpectedMultipleSpaces', ' ')
+		reportMatches(
+			content,
+			SPACE_BEFORE_SEMICOLON_REGEX,
+			ignored,
+			context,
+			source,
+			offset,
+			'unexpectedSpaceBeforeSemicolon',
+			'',
+		)
 
 		charOffset += line.length + 1
 	}

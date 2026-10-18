@@ -1,6 +1,17 @@
-import { getCSSLanguageService, type HoverSettings, type CompletionSettings, type Stylesheet } from 'vscode-css-languageservice'
+import {
+	getCSSLanguageService,
+	type HoverSettings,
+	type CompletionSettings,
+	type Stylesheet,
+} from 'vscode-css-languageservice'
 import { TextDocument } from 'vscode-languageserver-textdocument'
-import { CompletionList, ProposedFeatures, TextDocuments, TextDocumentSyncKind, createConnection } from 'vscode-languageserver/node'
+import {
+	CompletionList,
+	ProposedFeatures,
+	TextDocuments,
+	TextDocumentSyncKind,
+	createConnection,
+} from 'vscode-languageserver/node'
 import { doComplete as doEmmetComplete, type VSCodeEmmetConfig } from '@vscode/emmet-helper'
 
 interface CssBlock { start: number, end: number }
@@ -147,7 +158,8 @@ function getSnapshot(document: TextDocument): CssSnapshot | undefined {
 		return
 	}
 
-	const virtualDoc = TextDocument.create(document.uri, 'css', document.version, maskNonCssText(document.getText(), blocks))
+	const text = maskNonCssText(document.getText(), blocks)
+	const virtualDoc = TextDocument.create(document.uri, 'css', document.version, text)
 	const snapshot: CssSnapshot = {
 		blocks,
 		document: virtualDoc,
@@ -189,7 +201,11 @@ function containsOffset(blocks: CssBlock[], offset: number): boolean {
 	return blocks.some(block => offset >= block.start && offset <= block.end)
 }
 
-function containsRange(blocks: CssBlock[], document: TextDocument, range: { start: { line: number, character: number }, end: { line: number, character: number } }): boolean {
+function containsRange(
+	blocks: CssBlock[],
+	document: TextDocument,
+	range: { start: { line: number, character: number }, end: { line: number, character: number } },
+): boolean {
 	const start = document.offsetAt(range.start)
 	const end = document.offsetAt(range.end)
 	return blocks.some(block => start >= block.start && end <= block.end)
