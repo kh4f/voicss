@@ -79,7 +79,8 @@ void `css
 .title {
 	color: red;
 	font-size: 2rem;
-}`
+}
+`
 ```
 
 - Voicss produces **global CSS**
