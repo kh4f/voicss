@@ -13,16 +13,16 @@
 		"react-dom": "^19.3.1"
 	},
 	"devDependencies": {
-		"@kh4f/eslint-config": "^0.4.3",
-		"@eslint-react/eslint-plugin": "^5.8.16",
-		"@types/react": "^19.2.18",
-		"@types/react-dom": "^19.2.5",
-		"@vitejs/plugin-react": "^6.1.1",
+		"@kh4f/eslint-config": "^0.7.0",
+		"@eslint-react/eslint-plugin": "^5.28.1",
+		"@types/react": "^19.3.0",
+		"@types/react-dom": "^19.3.0",
+		"@vitejs/plugin-react": "^6.1.2",
 		"voicss": "workspace:*",
 		"eslint": "^10.9.1",
 		"eslint-plugin-react-hooks": "^7.1.1",
 		"typescript": "^6.0.3",
-		"vite": "^8.2.2",
+		"vite": "^8.3.4",
 		"voicss-eslint": "workspace:*"
 	}
 }
