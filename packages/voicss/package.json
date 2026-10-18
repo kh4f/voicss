@@ -21,7 +21,7 @@
 		"postpack": "rm README.md"
 	},
 	"dependencies": {
-		"magic-string": "^1.2.3"
+		"magic-string": "^1.4.3"
 	},
 	"peerDependencies": {
 		"next": "^16",
