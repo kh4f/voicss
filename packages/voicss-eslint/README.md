@@ -1,5 +1,9 @@
 # 🧹 Voicss × ESLint
 
+<a href="https://www.npmjs.com/package/voicss-eslint"><img alt="release" src="https://img.shields.io/npm/v/voicss-eslint?style=flat-square&labelColor=EB2700&color=FFDDD6&label=npm&logo=npm"></a>&nbsp;
+<a href="https://www.npmjs.com/package/voicss-eslint"><img alt="downloads" src="https://img.shields.io/npm/dy/voicss-eslint?style=flat-square&labelColor=EB2700&color=FFDDD6&label=%F0%9F%93%A5%20downloads"></a>&nbsp;
+<a href="https://github.com/kh4f/voicss/blob/main/LICENSE"><img alt="license" src="https://img.shields.io/github/license/kh4f/voicss?style=flat-square&labelColor=EB2700&color=FFDDD6&label=%F0%9F%9B%A1%EF%B8%8F%20license"></a>
+
 **CSS Formatting for Voicss Blocks**
 
 ## ⚙️ Setup
