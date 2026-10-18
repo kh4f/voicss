@@ -6,7 +6,7 @@
 		"dev": "vite",
 		"build": "vite build",
 		"preview": "vite preview",
-		"lint": "tsc && eslint"
+		"lint": "bun check && eslint"
 	},
 	"dependencies": {
 		"react": "^19.2.8",

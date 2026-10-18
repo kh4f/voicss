@@ -12,7 +12,7 @@
 	"bin": "dist/index.mjs",
 	"scripts": {
 		"build": "tsdown",
-		"lint": "tsc && eslint"
+		"lint": "bun check && eslint"
 	},
 	"dependencies": {
 		"@clack/prompts": "^1.7.0",

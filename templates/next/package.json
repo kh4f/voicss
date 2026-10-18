@@ -6,7 +6,7 @@
 		"dev": "next",
 		"build": "next build",
 		"preview": "next start",
-		"lint": "tsc && eslint",
+		"lint": "bun check && eslint",
 		"prepare": "bunx tskeep"
 	},
 	"dependencies": {

@@ -16,7 +16,7 @@
 	},
 	"scripts": {
 		"build": "tsdown src/{index,vite,next}.ts",
-		"lint": "tsc && eslint",
+		"lint": "bun check && eslint",
 		"prepack": "cp ../../README.md .",
 		"postpack": "rm README.md"
 	},

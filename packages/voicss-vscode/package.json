@@ -28,7 +28,7 @@
 	},
 	"scripts": {
 		"build": "tsdown",
-		"lint": "tsc && eslint",
+		"lint": "bun check && eslint",
 		"pack": "vsce package --no-dependencies --out dist",
 		"prepack": "cp ../../LICENSE . && sed -i 's/\"name\": \"voicss-vscode\"/\"name\": \"voicss\"/' package.json",
 		"postpack": "rm LICENSE && sed -i 's/\"name\": \"voicss\"/\"name\": \"voicss-vscode\"/' package.json"

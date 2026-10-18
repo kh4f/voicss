@@ -5,7 +5,7 @@
 	"scripts": {
 		"dev": "tsdown -w",
 		"build": "tsdown",
-		"lint": "tsc && eslint"
+		"lint": "bun check && eslint"
 	},
 	"devDependencies": {
 		"@kh4f/eslint-config": "^0.4.3",
