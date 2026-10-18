@@ -34,7 +34,7 @@
 		"postpack": "rm LICENSE && sed -i 's/\"name\": \"voicss\"/\"name\": \"voicss-vscode\"/' package.json"
 	},
 	"devDependencies": {
-		"@types/vscode": "^1.140.0",
+		"@types/vscode": "^1.136.0",
 		"@vscode/emmet-helper": "^2.11.0",
 		"@vscode/vsce": "^4.0.0",
 		"vscode-css-languageservice": "^6.3.10",

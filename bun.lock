@@ -22,7 +22,7 @@
     },
     "packages/voicss": {
       "name": "voicss",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "dependencies": {
         "magic-string": "^1.4.3",
       },
@@ -41,7 +41,7 @@
     },
     "packages/voicss-eslint": {
       "name": "voicss-eslint",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "peerDependencies": {
         "@eslint/core": "^1",
         "@typescript-eslint/utils": "^8",
@@ -49,9 +49,9 @@
     },
     "packages/voicss-vscode": {
       "name": "voicss-vscode",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "devDependencies": {
-        "@types/vscode": "^1.140.0",
+        "@types/vscode": "^1.136.0",
         "@vscode/emmet-helper": "^2.11.0",
         "@vscode/vsce": "^4.0.0",
         "vscode-css-languageservice": "^6.3.10",
