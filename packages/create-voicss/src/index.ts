@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs'
 
-import { intro, select, spinner, text, outro, cancel, isCancel } from '@clack/prompts'
+import { intro, select, spinner, text, outro, cancel, isCancel, CANCEL_SYMBOL } from '@clack/prompts'
 import { downloadTemplate } from 'giget'
 
 console.log()
@@ -31,7 +31,7 @@ s.stop('Project scaffolded successfully.')
 
 outro('Done!')
 
-function handleCancel<T>(value: T | symbol): asserts value is T {
+function handleCancel<T>(value: T | typeof CANCEL_SYMBOL): asserts value is T {
 	if (!isCancel(value)) return
 	cancel('Operation cancelled')
 	process.exit(0)
