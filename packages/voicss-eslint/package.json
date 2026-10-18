@@ -1,7 +1,7 @@
 {
 	"name": "voicss-eslint",
 	"version": "0.3.1",
-	"description": "🧹 CSS Formatting for Voicss",
+	"description": "🧹 CSS Formatting for Voicss Blocks",
 	"author": "kh4f",
 	"license": "MIT",
 	"repository": "https://github.com/kh4f/voicss",
