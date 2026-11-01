@@ -1,5 +1,12 @@
 # Changelog
 
+## &ensp; ` 🏷️ v0.1.5  `
+
+### &emsp; 🩹 Fixes
+- **Valid `package.json` after scaffolding**: resolving `workspace:*` dependencies no longer leaves a trailing comma after the last entry or a doubled comma after mid-list ones, so freshly generated projects now install without JSON parse errors. [🡥](https://github.com/kh4f/voicss/commit/ee08666766fb497cd15740bf0cbfca092033f216)
+
+##### &emsp;&emsp; [Commit log](https://github.com/kh4f/voicss/compare/create-voicss@0.1.4...create-voicss@0.1.5) &ensp;•&ensp; Nov 2, 2026
+
 ## &ensp; ` 🏷️ v0.1.4  `
 
 ### &emsp; 📦 Distribution
