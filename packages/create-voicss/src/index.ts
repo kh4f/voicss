@@ -40,9 +40,9 @@ function handleCancel<T>(value: T | typeof CANCEL_SYMBOL): asserts value is T {
 async function resolveWorkspaceDeps(dir: string) {
 	const pkgJson = readFileSync(`${dir}/package.json`, 'utf8')
 	let updated = pkgJson
-	for (const [match, pkg] of pkgJson.matchAll(/"(.*)": "workspace.*/g)) {
+	for (const [match, pkg, comma] of pkgJson.matchAll(/"(.*)": "workspace.*"(,)?/g)) {
 		const latestPkgVersion = await getLatestPkgVersion(pkg)
-		updated = updated.replace(match, `"${pkg}": "^${latestPkgVersion}",`)
+		updated = updated.replace(match, `"${pkg}": "^${latestPkgVersion}"${comma || ''}`)
 	}
 	writeFileSync(`${dir}/package.json`, updated, 'utf8')
 }
