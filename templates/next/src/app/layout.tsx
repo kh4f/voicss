@@ -1,5 +1,5 @@
-import type { Metadata } from 'next'
 import { Tiny5 } from 'next/font/google'
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = { title: 'Voicss × Next' }
 const tiny5 = Tiny5({ variable: '--font-tiny5', weight: '400' })
