@@ -27,7 +27,7 @@ const s = spinner()
 s.start('Scaffolding project...')
 await downloadTemplate(`gh:kh4f/voicss/templates/${platform}`, { dir: projectName })
 await resolveWorkspaceDeps(projectName)
-s.stop('Project scaffolded successfully.')
+s.stop('Project scaffolded successfully')
 
 outro('Done!')
 
