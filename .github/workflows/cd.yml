@@ -36,6 +36,9 @@ jobs:
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
 
-      - run: gh release create $TAG --title $TAG --draft
+      - run: |
+          awk '/^## /{found++; next} found==1' CHANGELOG.md |
+            gh release create $TAG --title $TAG --draft --notes-file -
+        working-directory: packages/${{ env.PACKAGE }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
